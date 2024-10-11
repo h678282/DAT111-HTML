@@ -1,0 +1,96 @@
+/* Generelle stiler */
+body {
+    margin: 0; /* Fjern standard margin */
+    background-image: url("laeringslab.jpg"); /* Bakgrunnsbilde for hele siden */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif; /* Standard skrifttype */
+}
+
+/* Overskrifter */
+h1 {
+    text-align: center;
+    background-color: lightblue; /* Bakgrunnsfarge for overskrift */
+    margin: 0; /* Fjerner margin for overskriften */
+    padding: 20px; /* Legg til polstring for overskriften */
+}
+
+h2 {
+    background-color: #e0f7fa; /* Lysere blåfarge for h2 som passer tema */
+    color: #004d40; /* Mørkere tekstfarge for bedre kontrast */
+    padding: 10px; /* Polstring for h2 */
+    border-radius: 8px; /* Runde hjørner */
+    margin: 20px 0; /* Margin rundt h2 */
+}
+
+/* Bokser for innhold */
+.box {
+    background-color: white; /* Hvit bakgrunn for bokser */
+    border: 2px solid #007bff; /* Blå kantlinje */
+    border-radius: 8px; /* Runde hjørner */
+    padding: 20px; /* Polstring for bokser */
+    margin: 20px; /* Margin rundt bokser */
+}
+
+/* Knapp */
+.button-container {
+    text-align: center; /* Sentrere knappen */
+    margin: 20px 0; /* Margin for knappen */
+}
+
+button {
+    background-color: blue; /* Bakgrunnsfarge for knappen */
+    color: white; /* Tekstfarge for knappen */
+    padding: 10px 20px; /* Polstring for knappen */
+    border: none; /* Ingen kantlinje */
+    border-radius: 5px; /* Runde hjørner for knappen */
+    cursor: pointer; /* Endre musepekeren til hånd når den er over knappen */
+}
+
+button:hover {
+    background-color: darkblue; /* Endre bakgrunnsfarge ved hover */
+}
+
+/* Liste stiler */
+ul {
+    padding-left: 20px; /* Indentasjon for lister */
+}
+
+/* Tabeller */
+table {
+    width: 100%; /* Tabeller tar opp hele bredden */
+    border-collapse: collapse; /* Slå sammen tabellkanter */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Grå kantlinje */
+    padding: 8px; /* Polstring i celler */
+    text-align: left; /* Venstrejustert tekst */
+}
+
+th, td {
+    background-color: white; /* Hvit bakgrunn for tabellceller */
+    color: #000; /* Svart tekst for bedre kontrast */
+}
+
+/* Runder hjørner på kontaktinformasjon */
+.contact-box {
+    background-color: #e0f7fa; /* Lysere blåfarge for kontaktinformasjon */
+    color: #004d40; /* Mørkere tekstfarge */
+    border-radius: 8px; /* Runde hjørner */
+    padding: 15px; /* Polstring for bokser */
+}
+
+/* Responsivhet */
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 24px; /* Reduser skriftstørrelse på mindre skjermer */
+    }
+
+    button {
+        width: 100%; /* Gjør knappen responsiv */
+    }
+}
+
