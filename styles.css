@@ -1,7 +1,7 @@
 /* Generelle stiler */
 body {
     margin: 0; /* Fjern standard margin */
-    background-image: url("laeringslab.jpg"); /* Bakgrunnsbilde for hele siden */
+    background-image: url("laeringslab.jpg"); /* Bakgrunnsbilde */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,12 +14,12 @@ h1 {
     text-align: center;
     background-color: lightblue; /* Bakgrunnsfarge for overskrift */
     margin: 0; /* Fjerner margin for overskriften */
-    padding: 20px; /* Legg til polstring for overskriften */
+    padding: 20px; /* Polstring for overskriften */
 }
 
 h2 {
-    background-color: #e0f7fa; /* Lysere blåfarge for h2 som passer tema */
-    color: #004d40; /* Mørkere tekstfarge for bedre kontrast */
+    background-color: #e0f7fa; /* Bakgrunnsfrage for h2 */
+    color: #004d40; /* Tekstfarge */
     padding: 10px; /* Polstring for h2 */
     border-radius: 8px; /* Runde hjørner */
     margin: 20px 0; /* Margin rundt h2 */
@@ -27,8 +27,8 @@ h2 {
 
 /* Bokser for innhold */
 .box {
-    background-color: white; /* Hvit bakgrunn for bokser */
-    border: 2px solid #007bff; /* Blå kantlinje */
+    background-color: white; /* Bakgrunn for bokser */
+    border: 2px solid #007bff; /* Kantlinje */
     border-radius: 8px; /* Runde hjørner */
     padding: 20px; /* Polstring for bokser */
     margin: 20px; /* Margin rundt bokser */
@@ -60,25 +60,25 @@ ul {
 
 /* Tabeller */
 table {
-    width: 100%; /* Tabeller tar opp hele bredden */
+    width: 100%; /* Bredde for tabeller */
     border-collapse: collapse; /* Slå sammen tabellkanter */
 }
 
 th, td {
-    border: 1px solid #ddd; /* Grå kantlinje */
+    border: 1px solid #ddd; /* Kantlinje */
     padding: 8px; /* Polstring i celler */
     text-align: left; /* Venstrejustert tekst */
 }
 
 th, td {
-    background-color: white; /* Hvit bakgrunn for tabellceller */
-    color: #000; /* Svart tekst for bedre kontrast */
+    background-color: white; /* Bakgrunn for tabellceller */
+    color: #000; /* Tekstfarge */
 }
 
 /* Runder hjørner på kontaktinformasjon */
 .contact-box {
-    background-color: #e0f7fa; /* Lysere blåfarge for kontaktinformasjon */
-    color: #004d40; /* Mørkere tekstfarge */
+    background-color: #e0f7fa; /* Farge for kontaktinformasjon */
+    color: #004d40; /* Tekstfarge */
     border-radius: 8px; /* Runde hjørner */
     padding: 15px; /* Polstring for bokser */
 }

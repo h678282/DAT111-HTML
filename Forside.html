@@ -19,9 +19,9 @@
             padding: 20px; /* Legg til polstring for overskriften */
         }
         a {
-            position: fixed;
-            top: 0;
-            left: 0;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
         }
         /* Stil for bildet */
         .header-image {
@@ -45,14 +45,44 @@
         button:hover {
             background-color: darkblue; /* Endre bakgrunnsfarge ved hover */
         }
+        .flex-container {
+            display: flex;
+            justify-content: space-around; /* Fordeler elementer jevnt */
+            padding: 20px;
+        }
+        .flex-container div {
+            background-color: white;
+            padding: 20px;
+            font-size: 20px;
+            margin-bottom: 2%;
+            text-align: center;
+            border: 1px solid black;
+            width: 30%; /* Hver div tar opp 30% av bredden */
+        }
+        .flex-container a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center; /* Sentrerer horisontalt */
+            margin: 20px 0; /* Avstand før og etter videoen */
+        }
     </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body> 
     <h1><b>Læringslab</b></h1>
     <img src="Forside.jpeg" alt="Forside bilde" class="header-image"> <!-- Sett inn bildet -->
-    <div class="button-container">
-        <button>Les mer om Læringslabben her</button>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/img_iLRT_jQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="flex-container">
+        <div><a href="file:///C:/Users/Mariu/OneDrive/Skrivebord/Informasjonsteknologi/H24/DAT100/Github_repository/DAT111-HTML/Ma%CC%8Al.html">Mål og visjon</a></div>
+        <div><a href="file:///C:/Users/Mariu/OneDrive/Skrivebord/Informasjonsteknologi/H24/DAT100/Github_repository/DAT111-HTML/InformasjonTilbud.html">Info og tilbud</a></div>
+        <div> <a href="file:///C:/Users/Mariu/OneDrive/Skrivebord/Informasjonsteknologi/H24/DAT100/Github_repository/DAT111-HTML/Kontaktinformasjon.html">Kontakt</a></div>
+    </div>
+    
 </body>
 </html>
