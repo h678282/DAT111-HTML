@@ -6,12 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informasjon og tilbud</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+         .newbutton-container {
+            display: flex; /* Plasserer knappene horisontalt */
+            gap: 10px; /* Avstand mellom knappene */
+            margin-top: 10px; /* Avstand fra overskriften */
+            margin: 20px; /* Avstand fra hjørnet */
+        }
+        .newbutton-container a {
+            text-decoration: none;
+            color: black;
+            background-color: lightblue;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .newbutton-container a:hover {
+            background-color: grey; /* Endre farge ved hover */
+        }
+    </style>
 </head>
 
 <body>
     <h1>Informasjon og tilbud</h1>
 
-    <p><a href="Forside.html">Hovedside</a></p>
+    <div class = "newbutton-container">
+        <div><a href= "forside3.html">Forside</a></div>
+        <div><a href= "Kontaktinformasjon.html">Kontaktinformasjon</a></div>
+        <div><a href= "Mål.html">Mål</a></div>
+    </div>
     
     <h2>Læringslab i Haugesund</h2>
     <p>Læringslabben i Haugesund ligger på Høgskulen på Vestlandet sin campus. Man finner den til høyre når en går inn hovedinngangen.
