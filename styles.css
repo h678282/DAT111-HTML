@@ -94,3 +94,20 @@ th, td {
     }
 }
 
+.location-header {
+    cursor: pointer; /* Endre musen til hånd når man er over ting man kan klikke */
+    color: rgb(173, 216, 230); /* Endre farge på teksten i headers */
+}
+
+.content {
+    display: none; /* Skjule innholdet når man åpner siden */
+    margin-top: 10px; /* Mellomrom over dropdown */
+}
+
+.advisor-image {
+    width: 100px; /* Vidde */
+    height: auto; 
+    border-radius: 10px; /* Runde hjørner */
+    margin-right: 15px; /* Mellomrom til høyre */
+}
+
