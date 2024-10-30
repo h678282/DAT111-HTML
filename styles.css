@@ -94,9 +94,21 @@ th, td {
     }
 }
 
+/* Stil for dropdown-overskriftene slik at de ser ut som trykkbare bokser */
 .location-header {
-    cursor: pointer; /* Endre musen til hånd når man er over ting man kan klikke */
-    color: rgb(173, 216, 230); /* Endre farge på teksten i headers */
+    background-color: #e0f7fa; /* Lys blå bakgrunnsfarge */
+    color: #004d40; /* Mørk tekstfarge */
+    padding: 15px; /* Polstring rundt teksten */
+    font-size: 1.5em; /* Større skriftstørrelse */
+    border-radius: 8px; /* Runde hjørner */
+    margin: 10px 0; /* Margin mellom boksene */
+    cursor: pointer; /* Håndpeker når man holder over */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gir en skygge for dybde */
+}
+
+/* Stil for åpenbare trykkbare overskrifter ved hover */
+.location-header:hover {
+    background-color: #b2ebf2; /* Litt mørkere ved hover */
 }
 
 .content {
